@@ -10,11 +10,6 @@ module.exports = {
       title: 'Vue CLI',
       description: '🛠️ Vue.js 开发的标准工具'
     },
-    '/ru/': {
-      lang: 'ru',
-      title: 'Vue CLI',
-      description: '🛠️ Стандартный инструментарий для разработки на Vue.js'
-    }
   },
   head: [
     ['link', { rel: 'icon', href: '/favicon.png' }],
@@ -39,10 +34,6 @@ module.exports = {
           message: "发现新内容可用",
           buttonText: "刷新"
         },
-        '/ru/': {
-          message: 'Доступно обновление контента',
-          buttonText: 'Обновить'
-        }
       }
     }
   },
@@ -274,138 +265,6 @@ module.exports = {
           ]
         }
       },
-      '/ru/': {
-        label: 'Русский',
-        selectText: 'Переводы',
-        lastUpdated: 'Последнее обновление',
-        editLinkText: 'Изменить эту страницу на GitHub',
-        nav: [
-          {
-            text: 'Руководство',
-            link: '/ru/guide/'
-          },
-          {
-            text: 'Конфигурация',
-            link: '/ru/config/'
-          },
-          {
-            text: 'Плагины',
-            items: [
-              {
-                text: 'Конфигурация',
-                items:
-                [
-                  { text: 'Основные плагины', link: '/ru/core-plugins/' },
-                ]
-              },
-              {
-                text: 'Поиск',
-                items:
-                [
-                  { text: 'Обзор плагинов', link: 'https://awesomejs.dev/for/vue-cli/' }
-                ]
-              },
-              {
-                text: 'Разработка',
-                items:
-                [
-                  { text: 'Руководство по разработке', link: '/ru/dev-guide/plugin-dev.md' },
-                ]
-              },
-              {
-                text: 'API',
-                items:
-                [
-                  { text: 'Плагин', link: '/ru/dev-guide/plugin-api.md' },
-                  { text: 'Генератор', link: '/ru/dev-guide/generator-api.md' },
-                ]
-              },
-              {
-                text: 'UI',
-                items:
-                [
-                  { text: 'Информация о плагине', link: '/ru/dev-guide/ui-info.md' },
-                  { text: 'API', link: '/ru/dev-guide/ui-api.md' },
-                  { text: 'Локализация', link: '/ru/dev-guide/ui-localization.md' }
-                ]
-              },
-            ]
-          },
-          {
-            text: 'Миграция с v3',
-            link: '/ru/migrating-from-v3/'
-          },
-          {
-            text: 'История изменений',
-            link: 'https://github.com/vuejs/vue-cli/blob/dev/CHANGELOG.md'
-          }
-        ],
-        sidebar: {
-          '/ru/guide/': [
-            '/ru/guide/',
-            '/ru/guide/installation',
-            {
-              title: 'Основы',
-              collapsable: false,
-              children: [
-                '/ru/guide/prototyping',
-                '/ru/guide/creating-a-project',
-                '/ru/guide/plugins-and-presets',
-                '/ru/guide/cli-service'
-              ]
-            },
-            {
-              title: 'Разработка',
-              collapsable: false,
-              children: [
-                '/ru/guide/browser-compatibility',
-                '/ru/guide/html-and-static-assets',
-                '/ru/guide/css',
-                '/ru/guide/webpack',
-                '/ru/guide/mode-and-env',
-                '/ru/guide/build-targets',
-                '/ru/guide/deployment',
-                '/ru/guide/troubleshooting'
-              ]
-            }
-          ],
-          '/ru/dev-guide/': [
-            '/ru/dev-guide/plugin-dev.md',
-            {
-              title: 'Справочник API',
-              collapsable: false,
-              children: [
-                '/ru/dev-guide/plugin-api.md',
-                '/ru/dev-guide/generator-api.md',
-              ]
-            },
-            {
-              title: 'Разработка UI',
-              collapsable: false,
-              children: [
-                '/ru/dev-guide/ui-info.md',
-                '/ru/dev-guide/ui-api.md',
-                '/ru/dev-guide/ui-localization.md'
-              ]
-            }
-          ],
-          '/ru/core-plugins/': [{
-            title: 'Основные плагины Vue CLI',
-            collapsable: false,
-            children: [
-              '/ru/core-plugins/babel.md',
-              '/ru/core-plugins/typescript.md',
-              '/ru/core-plugins/eslint.md',
-              '/ru/core-plugins/pwa.md',
-              '/ru/core-plugins/unit-jest.md',
-              '/ru/core-plugins/unit-mocha.md',
-              '/ru/core-plugins/e2e-cypress.md',
-              '/ru/core-plugins/e2e-nightwatch.md',
-              '/ru/core-plugins/e2e-webdriverio.md',
-            ]
-          }]
-        }
-      }
     }
   }
 }
